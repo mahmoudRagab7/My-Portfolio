@@ -1,6 +1,6 @@
 .section {
   -webkit-animation: scaleAnimation 1s ease-in-out;
-          animation: scaleAnimation 1s ease-in-out;
+  animation: scaleAnimation 1s ease-in-out;
   min-height: 100vh;
 }
 @-webkit-keyframes scaleAnimation {
@@ -98,8 +98,8 @@ a {
 
 :root {
   --color-primary: #191d2b;
-  --color-secondary: #27AE60;
-  --color-white: #FFFFFF;
+  --color-secondary: #27ae60;
+  --color-white: #ffffff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
   --color-grey-1: #dbe1e8;
@@ -109,12 +109,13 @@ a {
   --color-grey-5: #2a2e35;
   --color-grey-6: #12181b;
   --br-sm-2: 14px;
-  --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
+  --box-shadow-1: 0 3px 15px rgba(0, 0, 0, 0.3);
 }
 
 .light-mode {
-  --color-primary: #FFFFFF;
-  --color-secondary: #FAED55;
+  --color-primary: #ffffff;
+  /* --color-secondary: #FAED55; */
+  --color-secondary: #5aa9e6;
   --color-white: #454e56;
   --color-grey-1: #6c7983;
   --color-grey-2: #6c7983;
@@ -284,7 +285,8 @@ a {
   grid-gap: 2rem;
   margin-bottom: 2rem;
 }
-.contact-content .right-contact form input, .contact-content .right-contact form textarea {
+.contact-content .right-contact form input,
+.contact-content .right-contact form textarea {
   background-color: var(--color-grey-5);
   outline: none;
   border: none;
@@ -293,7 +295,8 @@ a {
   font-size: 1rem;
   color: #fff;
 }
-.contact-content .right-contact form #input, .contact-content .right-contact form #input + textarea {
+.contact-content .right-contact form #input,
+.contact-content .right-contact form #input + textarea {
   grid-column: span 2;
 }
 .contact-content .right-contact form .button-group {
@@ -369,12 +372,14 @@ a {
     margin-bottom: 2rem;
     margin: 2rem 1rem;
   }
-  .contact-content .right-contact form input, .contact-content .right-contact form textarea {
+  .contact-content .right-contact form input,
+  .contact-content .right-contact form textarea {
     padding: 10px;
     font-size: 0.75rem;
     color: #fff;
   }
-  .contact-content .right-contact form #input, .contact-content .right-contact form #input + textarea {
+  .contact-content .right-contact form #input,
+  .contact-content .right-contact form #input + textarea {
     grid-column: span 2;
   }
   .contact-content .right-contact form .button-group {
@@ -390,11 +395,23 @@ a {
     width: 100%;
     font-size: 0.75rem;
   }
-  .contact-content .right-contact form .button-group #download-cv a .button-icon {
+  .contact-content
+    .right-contact
+    form
+    .button-group
+    #download-cv
+    a
+    .button-icon {
     margin-left: auto;
     font-size: 0.75rem;
   }
-  .contact-content .right-contact form .button-group #download-cv a .button-text {
+  .contact-content
+    .right-contact
+    form
+    .button-group
+    #download-cv
+    a
+    .button-text {
     padding: 0;
     padding-left: 1rem !important;
     text-align: center !important;
@@ -430,7 +447,8 @@ a {
     line-height: 2rem;
     font-size: 1.2rem;
   }
-  .contact-content .right-contact form input, .contact-content .right-contact form textarea {
+  .contact-content .right-contact form input,
+  .contact-content .right-contact form textarea {
     padding: 15px !important;
     font-size: 0.8rem !important;
   }
@@ -471,7 +489,8 @@ a {
     line-height: 2rem;
     font-size: 1.3rem;
   }
-  .contact-content .right-contact form input, .contact-content .right-contact form textarea {
+  .contact-content .right-contact form input,
+  .contact-content .right-contact form textarea {
     padding: 20px !important;
   }
   .contact-content .right-contact .down-cv a .button-text {
@@ -536,7 +555,8 @@ a {
     grid-gap: 2rem;
     margin-bottom: 2rem;
   }
-  .contact-content .right-contact form input, .contact-content .right-contact form textarea {
+  .contact-content .right-contact form input,
+  .contact-content .right-contact form textarea {
     background-color: var(--color-grey-5);
     outline: none;
     border: none;
@@ -545,7 +565,8 @@ a {
     font-size: 1rem;
     color: #fff;
   }
-  .contact-content .right-contact form #input, .contact-content .right-contact form #input + textarea {
+  .contact-content .right-contact form #input,
+  .contact-content .right-contact form #input + textarea {
     grid-column: span 2;
   }
   .contact-content .right-contact form .button-group {
@@ -566,7 +587,13 @@ a {
   .contact-content .right-contact form .button-group #download-cv a {
     width: 100%;
   }
-  .contact-content .right-contact form .button-group #download-cv a .button-icon {
+  .contact-content
+    .right-contact
+    form
+    .button-group
+    #download-cv
+    a
+    .button-icon {
     margin-left: auto;
   }
 }
@@ -622,7 +649,8 @@ a {
     grid-gap: 2rem;
     margin-bottom: 2rem;
   }
-  .contact-content .right-contact form input, .contact-content .right-contact form textarea {
+  .contact-content .right-contact form input,
+  .contact-content .right-contact form textarea {
     background-color: var(--color-grey-5);
     outline: none;
     border: none;
@@ -631,7 +659,8 @@ a {
     font-size: 1rem;
     color: #fff;
   }
-  .contact-content .right-contact form #input, .contact-content .right-contact form #input + textarea {
+  .contact-content .right-contact form #input,
+  .contact-content .right-contact form #input + textarea {
     grid-column: span 2;
   }
   .contact-content .right-contact form .button-group {
@@ -652,9 +681,13 @@ a {
   .contact-content .right-contact form .button-group #download-cv a {
     width: 100%;
   }
-  .contact-content .right-contact form .button-group #download-cv a .button-icon {
+  .contact-content
+    .right-contact
+    form
+    .button-group
+    #download-cv
+    a
+    .button-icon {
     margin-left: auto;
   }
-}/*# sourceMappingURL=contact.css.map */
-
-
+} /*# sourceMappingURL=contact.css.map */

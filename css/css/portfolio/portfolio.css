@@ -1,26 +1,26 @@
 .section {
   -webkit-animation: scaleAnimation 1s ease-in-out;
-          animation: scaleAnimation 1s ease-in-out;
+  animation: scaleAnimation 1s ease-in-out;
   min-height: 100vh;
 }
 @-webkit-keyframes scaleAnimation {
   0% {
     -webkit-transform: translateY(-100%) scaleY(0);
-            transform: translateY(-100%) scaleY(0);
+    transform: translateY(-100%) scaleY(0);
   }
   100% {
     -webkit-transform: translateY(0%) scaleY(1);
-            transform: translateY(0%) scaleY(1);
+    transform: translateY(0%) scaleY(1);
   }
 }
 @keyframes scaleAnimation {
   0% {
     -webkit-transform: translateY(-100%) scaleY(0);
-            transform: translateY(-100%) scaleY(0);
+    transform: translateY(-100%) scaleY(0);
   }
   100% {
     -webkit-transform: translateY(0%) scaleY(1);
-            transform: translateY(0%) scaleY(1);
+    transform: translateY(0%) scaleY(1);
   }
 }
 
@@ -32,18 +32,18 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   z-index: 10;
   top: 50%;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-align: center;
 }
 .controls .active-btn {
@@ -62,14 +62,14 @@
   border-radius: 50%;
   margin: 0.7rem 0;
   -webkit-box-shadow: var(--box-shadow-1);
-          box-shadow: var(--box-shadow-1);
+  box-shadow: var(--box-shadow-1);
   cursor: pointer;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 .controls .control:active {
   -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 .controls .control i {
   font-size: 1.2rem;
@@ -84,14 +84,14 @@
     bottom: 0;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     left: 50%;
     -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
     background-color: var(--color-grey-5);
     width: 100%;
   }
@@ -120,13 +120,13 @@ a {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
   --color-primary: #191d2b;
-  --color-secondary: #27AE60;
-  --color-white: #FFFFFF;
+  --color-secondary: #27ae60;
+  --color-white: #ffffff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
   --color-grey-1: #dbe1e8;
@@ -136,12 +136,13 @@ a {
   --color-grey-5: #2a2e35;
   --color-grey-6: #12181b;
   --br-sm-2: 14px;
-  --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
+  --box-shadow-1: 0 3px 15px rgba(0, 0, 0, 0.3);
 }
 
 .light-mode {
-  --color-primary: #FFFFFF;
-  --color-secondary: #FAED55;
+  --color-primary: #ffffff;
+  /* --color-secondary: #FAED55; */
+  --color-secondary: #5aa9e6;
   --color-white: #454e56;
   --color-grey-1: #6c7983;
   --color-grey-2: #6c7983;
@@ -169,7 +170,7 @@ a {
   transition: 0.4s;
   z-index: -1;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-weight: 800;
   font-size: 6.3rem;
   opacity: 0.5;
@@ -191,7 +192,7 @@ a {
 }
 .theme-btn:active {
   -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 .theme-btn i {
   font-size: 1.4;
@@ -226,13 +227,13 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
   -webkit-transition: 0.5s;
   transition: 0.5s;
   top: 0;
@@ -240,8 +241,8 @@ a {
   border-radius: 40px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 .sec3 .portfolio-content .portfolio-card .portfolio-info p {
   font-size: 2rem;
@@ -252,8 +253,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
 }
 .sec3 .portfolio-content .portfolio-card .portfolio-info .icons a {
   font-size: 2.5rem;
@@ -272,13 +273,13 @@ a {
 }
 .sec3 .portfolio-content .portfolio-card:hover .portfolio-info {
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 .sec3 .portfolio-content .portfolio-card img {
   width: 100%;
   height: 300px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 40px;
 }
 

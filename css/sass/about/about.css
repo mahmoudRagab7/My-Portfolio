@@ -304,8 +304,8 @@ a {
 
 :root {
   --color-primary: #191d2b;
-  --color-secondary: #27AE60;
-  --color-white: #FFFFFF;
+  --color-secondary: #27ae60;
+  --color-white: #ffffff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
   --color-grey-1: #dbe1e8;
@@ -315,12 +315,13 @@ a {
   --color-grey-5: #2a2e35;
   --color-grey-6: #12181b;
   --br-sm-2: 14px;
-  --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
+  --box-shadow-1: 0 3px 15px rgba(0, 0, 0, 0.3);
 }
 
 .light-mode {
-  --color-primary: #FFFFFF;
-  --color-secondary: #FAED55;
+  --color-primary: #ffffff;
+  /* --color-secondary: #FAED55; */
+  --color-secondary: #5aa9e6;
   --color-white: #454e56;
   --color-grey-1: #6c7983;
   --color-grey-2: #6c7983;
@@ -329,7 +330,7 @@ a {
 
 .section {
   -webkit-animation: scaleAnimation 1s ease-in-out;
-          animation: scaleAnimation 1s ease-in-out;
+  animation: scaleAnimation 1s ease-in-out;
   min-height: 100vh;
 }
 @-webkit-keyframes scaleAnimation {
@@ -401,7 +402,7 @@ a {
   margin: auto;
   display: block;
   -webkit-animation: scaleAnimation 1s ease-in-out;
-          animation: scaleAnimation 1s ease-in-out;
+  animation: scaleAnimation 1s ease-in-out;
 }
 .sec2 .main-title h2 {
   font-size: 4rem;
@@ -450,7 +451,12 @@ a {
   color: var(--color-grey-1);
   letter-spacing: 2px;
 }
-.sec2 .about-container .right-about .about-item .about-text .small-text::before {
+.sec2
+  .about-container
+  .right-about
+  .about-item
+  .about-text
+  .small-text::before {
   position: absolute;
   content: "";
   left: 0;
@@ -627,4 +633,4 @@ a {
 }
 .down-cv a:hover:hover::after {
   transform: translate(0);
-}/*# sourceMappingURL=about.css.map */
+} /*# sourceMappingURL=about.css.map */
